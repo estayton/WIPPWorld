@@ -30,7 +30,7 @@ statics = [
 templates = [
 "What makes a trip to #WIPPWorld so special? Just ask The @name Family! #EndlessVigilance",
 "It's @aan @adjective good time when little ones ride @ride at #WIPPWorld. Check it out!",
-"Fans of @noun inspired cuisine, don't miss the #WIPPWorldFoodFestival! Enjoy all the @fun until @date!",
+"Fans of @noun inspired cuisine, don't miss the #WIPPWorldFoodFestival! Enjoy all the @nfun until @date!",
 "Happy @holiday from #WIPPWorld!",
 "See why WIPP World is your place to be with these must try experiences at @attraction!",
 "#@holiday is even more @afun when you stay at a @name Resort hotel!",
@@ -92,7 +92,8 @@ bar = ["The Cooling Tower",
 restaurant = ["Fission Cafe",
 "The SCRAMbled Egg",
 "The Core and Griddle",
-"The Fissile Flounder"
+"The Fissile Flounder",
+"RadiYum Grill"
 ]
 bartype = ["cocktail lounge",
 "pub",
