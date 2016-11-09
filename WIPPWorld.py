@@ -57,7 +57,7 @@ templates = [
 "An all-new holiday nighttime spectacular @event is coming to WIPP World’s @attraction!",
 "Journey through the world famous @attraction with the #WIPPWorld Blog!",
 "Awaken the night at WIPP World’s @attraction with all new nighttime experiences!",
-"FIRST LOOK: Go inside @bar, a new @bartype opening soon at WIPP World's @attraction",
+"FIRST LOOK: Go inside @bar, a new @typebar opening soon at WIPP World's @attraction",
 "Come to @restaurant, now open at #WIPPWorld, and experience dining like never before",
 "@restaurant restaurant will open at @attraction in Spring 2017!",
 "This winter, WIPP World's @attraction will glow like never before! #WarmUpWinter",
@@ -95,7 +95,7 @@ restaurant = ["Fission Cafe",
 "The Fissile Flounder",
 "RadiYum Grill"
 ]
-bartype = ["cocktail lounge",
+typebar = ["cocktail lounge",
 "pub",
 "drinks spot",
 "bar"
@@ -226,7 +226,7 @@ def composephrase():
     anima = random.choice(animal)
     restauran = random.choice(restaurant)
     ba = random.choice(bar)
-    bartyp = random.choice(bartype)
+    typeba = random.choice(typebar)
     even = random.choice(event)
     phrase = phrase.replace("@attraction",attractio)
     phrase = phrase.replace("@ride",rid)
@@ -242,7 +242,7 @@ def composephrase():
     phrase = phrase.replace("@animal",anima)
     phrase = phrase.replace("@restaurant",restauran)
     phrase = phrase.replace("@ba",ba)
-    phrase = phrase.replace("@bartype",bartyp)
+    phrase = phrase.replace("@typebar",typeba)
     phrase = phrase.replace("@event",even)
     phrase = phrase.replace("@month",thismonth())
     phrase = phrase.replace("@date",date())
